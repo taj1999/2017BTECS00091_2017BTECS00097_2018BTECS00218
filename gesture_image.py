@@ -4,9 +4,9 @@ import math
 import imutils
 
 # Select the image by removing comment
-frame = cv2.imread('./inputs/frame20.bmp')
+#frame = cv2.imread('./inputs/frame20.bmp')
 #frame = cv2.imread('./inputs/frame30.bmp')
-#frame = cv2.imread('./inputs/frame2.bmp')
+frame = cv2.imread('./inputs/frame2.bmp')
 #frame = cv2.imread('./inputs/hand20.bmp')
         
 frame = imutils.resize(frame, width=700)	
